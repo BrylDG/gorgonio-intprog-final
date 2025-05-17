@@ -17,4 +17,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FINAL_PROJECT_E797F }}
           channelId: live
-          projectId: final-project-e797f
+          projectId: gorgonio-fullstack-app-fd723
