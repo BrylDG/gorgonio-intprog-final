@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "frotnend/dist/frotnend",
     "ignore": [
       "firebase.json",
       "**/.*",
