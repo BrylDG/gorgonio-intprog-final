@@ -12,7 +12,7 @@ app.use(cookieParser());
 
 // Enhanced CORS configuration to fix the CORS error
 app.use(cors({
-    origin: ['https://final-project-e797f.web.app', 'http://localhost:4200'],
+    origin: ['https://gorgonio-fullstack-app-fd723.web.app', 'http://localhost:5000'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
     credentials: true,
@@ -34,5 +34,5 @@ app.use('/api-docs', require('_helpers/swagger'));
 app.use(errorHandler);
 
 // start server
-const port = process.env.NODE_ENV === 'production' ? (process.env.PORT || 80) : 4000;
+const port = process.env.NODE_ENV === 'production' ? (process.env.PORT || 80) : 5000;
 app.listen(port, () => console.log('Server listening on port ' + port));
